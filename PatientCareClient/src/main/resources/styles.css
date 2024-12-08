@@ -1,0 +1,40 @@
+.header-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0078D7; /* Blue text */
+}
+
+.custom-text-field {
+    -fx-background-color: #E8F0FE; /* Light blue background */
+    -fx-text-fill: #333333; /* Dark text color */
+    -fx-border-color: #007BFF; /* Blue border */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 10px; /* Inner padding */
+    -fx-font-size: 14px; /* Font size */
+}
+
+.login-button {
+    -fx-background-color: #007BFF; /* Blue background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-padding: 10px; /* Padding */
+}
+
+.create-account {
+    -fx-background-color: #007BFF; /* Blue background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-padding: 10px; /* Padding */
+}
+
+.error-label {
+    -fx-text-fill: red; /* Red text for error messages */
+}
+
+.option-button {
+    -fx-background-color: #007BFF; /* Blue background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-padding: 10px; /* Padding */
+    -fx-pref-width: 200px; /* Fixed width for buttons */
+}
