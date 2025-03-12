@@ -19,9 +19,7 @@ public class Database {
     private void connectToDatabase() {
         try {
             connection = DriverManager.getConnection(
-                    "jdbc:mysql://34.171.220.254/patient_care",
-                    "wflor4",
-                    "pass"
+                    //
             );
             System.out.println("Database connected successfully.");
         } catch (SQLException e) {
